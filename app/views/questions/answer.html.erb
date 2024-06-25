@@ -1,0 +1,17 @@
+<div class="container">
+  <div class="row justify-content-center">
+    <div class="col-md-8 text-center" >
+      <h1 class="display-4 mb-4">Stupid Coaching</h1>
+      <p class="lead">The coach says Hello there:</p>
+      <div class="alert alert-primary" role="alert">
+        <p>You: <%= @question %></p>
+      </div>
+      <div class="alert alert-success" role="alert">
+        <p>Coach: <%= @answer %></p>
+      </div>
+      <p class="text-center mt-4">
+        <%= link_to "Know more about us", ask_path, class: "btn btn-dark" %>
+      </p>
+    </div>
+  </div>
+</div>
